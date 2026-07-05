@@ -345,3 +345,141 @@ nav {
 .program-item a:hover i {
   transform: translateX(4px);
 }
+
+/* contact */
+.contact-section {
+  padding: 80px 0;
+  background: #0f1a2e;
+}
+
+.contact-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.contact-left .section-tag {
+  background: rgba(212, 168, 75, 0.15);
+  color: #d4a84b;
+}
+
+.contact-left h2 {
+  font-size: 2.2rem;
+  color: #f5f2ef;
+  margin-bottom: 12px;
+}
+
+.contact-left p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.05rem;
+  margin-bottom: 25px;
+}
+
+.contact-email {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.contact-email span {
+  font-size: 1.5rem;
+  color: #d4a84b;
+}
+
+.contact-email a {
+  color: #d4a84b;
+}
+
+.contact-email a:hover {
+  color: #f5f2ef;
+}
+
+.contact-privacy {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.85rem;
+}
+
+.contact-privacy i {
+  margin-right: 6px;
+}
+
+.contact-card {
+  background: #ffffff;
+  padding: 35px 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
+}
+
+.contact-card h3 {
+  color: #0f1a2e;
+  font-size: 1.2rem;
+  margin-bottom: 18px;
+}
+
+.contact-card h3 i {
+  color: #d4a84b;
+  margin-right: 8px;
+}
+
+.contact-card input,
+.contact-card textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid #e8e3e0;
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  background: #faf8f7;
+  margin-bottom: 14px;
+}
+
+.contact-card input:focus,
+.contact-card textarea:focus {
+  border-color: #d4a84b;
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(212, 168, 75, 0.1);
+}
+
+.contact-card textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 14px;
+  background: #d4a84b;
+  color: #0f1a2e;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-submit i {
+  margin-right: 8px;
+}
+
+.btn-submit:hover {
+  background: #c4963a;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 25px rgba(212, 168, 75, 0.3);
+}
+
+.form-note {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #9a9aa8;
+  margin-top: 12px;
+}
+
+.form-note i {
+  margin-right: 4px;
+}
